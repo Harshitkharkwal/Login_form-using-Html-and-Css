@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: url(background.jpg) no-repeat; */
+    background-color: black;
+    /* background-position:center; */
+    background-size: cover;
+}
+h1{
+    font-weight: bold;
+}
+.container h1{
+    color:cornsilk;
+    /* border-bottom: 2px solid grey; */
+    display: inline-block;
+}
+.container{
+    display:inline-block;
+    /* margin: 100px 20px; */
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    padding: 40px 25px;
+    width: 400px;
+    /* background-color:brown; */
+    border-radius: 10px;
+    /* border: 0.5px solid gray; */
+}
+.username{
+    margin: 20px 10px;
+    width: 350px;
+    outline: none;
+    color: white;
+    
+    
+}
+.password{
+    margin: 20px 10px;
+    width: 350px;
+    /* outline: none; */
+    color: white;
+}
+.button{
+    margin: 0px 6px;
+    width: 350px;
+    
+}
+button{
+    border-radius: 4px;
+    border-style: unset;
+    font-weight: bold;
+    background-color:navy;
+    color: white;
+}
+.password input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: white;
+    outline: none;
+}
+.username input{
+    
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid grey;
+    /* box-sizing: unset; */
+    outline: none;
+}
+button:hover{
+    background-color: orange;
+}
